@@ -1,0 +1,5 @@
+a,b,c = int(input()),int(input()),int(input())
+list=[a,b,c] 
+print(max(list)), list.remove(max(list))
+print(min(list)), list.remove(min(list))
+print(list[0])
