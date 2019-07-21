@@ -1,0 +1,7 @@
+a = int(input())
+if a%10==1 and a%100!=11:
+    print (a, 'программист')
+elif 1<a%10<5 and a%100!=12 and a%100!=13 and a%100!=14:
+    print (a, 'программиста')
+else:
+    print (a, 'программистов')
