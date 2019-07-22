@@ -1,0 +1,7 @@
+a = 0
+while -1000<a<1000:
+     b = int (input())
+     a += b
+     if b == 0:
+        print (a)
+        break
