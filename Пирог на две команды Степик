@@ -1,0 +1,9 @@
+ch1,ch2,de = int (input()),int (input()),0
+if ch1==0 and ch2==0:
+  print ('0')
+else:
+      while de <= ch1*ch2:
+           de+=1
+           if de%ch1==0 and de%ch2==0:
+             print (de)
+             break
