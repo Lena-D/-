@@ -1,0 +1,7 @@
+gen = input()
+lower = gen.lower()
+count1 = lower.count('c')
+count2 = lower.count('g')
+count3 = len(lower)
+proc = (count1+count2)/count3*100
+print(proc)
