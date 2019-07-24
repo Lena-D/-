@@ -1,0 +1,7 @@
+a,b,c,d=(int(input()) for _ in range(4))
+sep='\t'
+for j in range(c,d+1):
+  print(" ",j,sep=sep,end='')
+print(" ")
+for i in range(a,b+1):
+  print(i, sep.join(str(i * j) for j in range(c, d + 1)), sep=sep)
