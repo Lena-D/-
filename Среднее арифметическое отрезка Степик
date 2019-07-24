@@ -1,0 +1,8 @@
+counter = 0
+c1,c2=(int(input()) for _ in range(2))
+s=0
+for r1 in range(c1,c2+1):
+    if r1%3==0:
+      s+=r1
+      counter+=1
+print (s/counter)
