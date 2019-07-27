@@ -1,0 +1,13 @@
+b = int (input())
+if b == 0:
+  print (b)
+else:
+    list1 = []
+    list2 = []
+    list1.append(b)
+    while sum(i for i in list1) !=0:
+         b = int (input())
+         list1.append(b)
+         if sum(i for i in list1) ==0:
+            list2 = [x*x for x in list1]
+            print(sum(i for i in list2))
