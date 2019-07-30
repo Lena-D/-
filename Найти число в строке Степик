@@ -1,0 +1,5 @@
+a = (int(i) for i in input().split())
+b = int(input())
+c = [i for i, j in enumerate(a) if j == b]
+if c: print(*c)
+else: print('Отсутствует')
